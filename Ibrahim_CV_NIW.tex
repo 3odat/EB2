@@ -1,0 +1,246 @@
+%-------------------------
+% Resume/CV for EB2-NIW Petition
+% Author: Ibrahim Odat
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\setlength{\footskip}{4.08003pt}
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generated pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Ibrahim Odat} \\ \vspace{2pt}
+    \small\textit{AI Security Researcher $|$ Autonomous Drone and Multi-Agent Systems Security $|$ Ph.D. Student} \\ \vspace{3pt}
+    \small (248) 237-5426 $|$
+    \href{mailto:ibrahimodatt@gmail.com}{\underline{ibrahimodatt@gmail.com}} $|$
+    Michigan, USA \\ \vspace{1pt}
+    \href{https://3odat.github.io}{\underline{3odat.github.io}} $|$
+    \href{https://linkedin.com/in/ibrahim-odat}{\underline{linkedin.com/in/ibrahim-odat}} $|$
+    \href{https://scholar.google.com/citations?user=U5HR4EcAAAAJ&hl=en}{\underline{Google Scholar}}
+\end{center}
+
+%-----------SUMMARY-----------
+\section{Summary}
+  \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+      Ph.D. student in Computer Science and Informatics at Oakland University focused on the security of large language model (LLM)-enabled autonomous drones, unmanned aerial vehicles (UAVs), and multi-agent systems. Research and engineering experience spans adversarial attacks, resilient defense mechanisms, autonomous systems security, and AI-driven threat detection, with applications relevant to defense, public safety, and critical infrastructure. Author of published work on LLM-enabled attacks against drone communications and ongoing research on memory-poisoning threats in multi-agent UAV systems.
+    }}
+  \end{itemize}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Oakland University}{Rochester, MI}
+      {Doctor of Philosophy (Ph.D.), Computer Science \& Informatics $|$ GPA: 3.93/4.0}{Expected Dec. 2028}
+      \resumeItemListStart
+        \resumeItem{Research focus: security of LLM-enabled autonomous drones (UAVs) and multi-agent systems}
+        \resumeItem{Coursework: Large Language Models, Cyber Laws \& Digital Forensics, Integrated Computing Systems, Advanced Data Structures \& Algorithms}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Oakland University}{Rochester, MI}
+      {Master of Science (M.S.), Cybersecurity $|$ GPA: 4.0/4.0}{May 2022 -- Dec. 2023}
+  \resumeSubHeadingListEnd
+
+%-----------PUBLICATIONS-----------
+\section{Publications \& Research Impact}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Net-GPT: A LLM-Empowered Man-in-the-Middle Chatbot for UAV}{2023}
+      {IEEE/ACM Symposium on Edge Computing (SEC 2023), pp. 287--293}{}
+      \resumeItemListStart
+        \resumeItem{Developed an LLM-powered framework that achieved 95.3\% accuracy in generating counterfeit UAV network packets, enabling automated man-in-the-middle (MITM) attacks on drone-to-ground-station communications}
+        \resumeItem{Cited 39 times on Google Scholar as of March 2026, with related follow-on research in robotic systems, smart grid security, and flying communication networks}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Heterogeneous Generative Dataset for UASes}{2023}
+      {IEEE International Conference on Mobility, Operations, Services and Technologies (MOST 2023)}{}
+      \resumeItemListStart
+        \resumeItem{Co-authored research on heterogeneous dataset generation for unmanned aerial systems security evaluation}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------MANUSCRIPTS-----------
+\section{Manuscripts in Preparation}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Memory as a Control Plane: Poisoning Attacks on LLM Multi-Agent UAV Systems}{2026}
+      {Research manuscript in preparation with faculty collaborator, Oakland University}{}
+      \resumeItemListStart
+        \resumeItem{Evaluated a multi-agent UAV system (AeroMind) across 15 attack scenarios and 3 LLM backbones, showing that memory poisoning can redirect coordinated mission behavior and persist across sequential missions in a shared-memory architecture}
+        \resumeItem{Developed a three-layer defense pipeline that reduced measured attack success from 100\% to 0\% in the tested scenarios with low runtime overhead}
+        \resumeItem{Introduced a memory-poisoning threat model for LLM-powered multi-agent UAV systems}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------RESEARCH EXPERIENCE-----------
+\section{Research Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Cybersecurity Researcher}{Jan. 2022 -- Present}
+      {Oakland University}{Rochester, MI}
+      \resumeItemListStart
+        \resumeItem{Penetration-tested PX4 Autopilot UAV flight controllers, identifying buffer overflows, session hijacking, and MAVLink protocol exploits across three distinct attack vectors; developed and validated mitigations adopted into the research lab's UAV security baseline}
+        \resumeItem{Architected AI-driven threat detection pipelines using fine-tuned LLMs, prompt engineering, and Ollama, automating anomaly detection and reducing manual threat analysis time by 60\%}
+        \resumeItem{Performed firmware analysis on Foscam IoT cameras, uncovering authentication bypass and memory corruption vulnerabilities; produced detailed vulnerability reports with actionable remediation steps}
+        \resumeItem{Simulated MITM and brute-force attacks against encryption protocols and IDS/IPS configurations, producing findings that directly informed updated detection rules and incident response procedures}
+        \resumeItem{Designed and implemented AeroMind, a multi-agent UAV fleet integrating LLMs, persistent vector memory, and PX4 SITL flight simulation for autonomous mission execution and security evaluation}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------PROFESSIONAL EXPERIENCE-----------
+\section{Professional Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Cybersecurity Specialist}{Jan. 2021 -- Jan. 2022}
+      {ZADD}{Amman, Jordan}
+      \resumeItemListStart
+        \resumeItem{Integrated AI-based anomaly detection into an enterprise SaaS platform, reducing false-positive security alerts by 35\% and improving SOC analyst response efficiency}
+        \resumeItem{Executed 120+ Nessus vulnerability scans across enterprise infrastructure, remediating critical and high-severity findings to achieve NIST SP 800-171 compliance ahead of audit deadlines}
+        \resumeItem{Secured Windows Active Directory environments by eliminating lateral movement pathways and enforcing tighter access control policies across domain infrastructure}
+        \resumeItem{Operated and optimized IDS/IPS, firewalls, DLP, and SIEM, reducing alert noise and maintaining continuous network visibility across the security operations environment}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Penetration Tester}{Jan. 2020 -- Jan. 2021}
+      {Futuretec Security Solutions}{Amman, Jordan}
+      \resumeItemListStart
+        \resumeItem{Executed 200+ web application and API penetration tests using Burp Suite and SQLMap, identifying critical SQL injection, XSS, and authentication bypass vulnerabilities across client environments}
+        \resumeItem{Identified and remediated OWASP Top 10 vulnerabilities -- Injection, Broken Authentication, Security Misconfiguration -- supporting client compliance with PCI DSS and ISO 27001}
+        \resumeItem{Developed custom Python automation frameworks for vulnerability discovery, reducing manual testing effort by 50\% and accelerating assessment cycles by 40\%}
+        \resumeItem{Authored executive remediation reports for C-level stakeholders and integrated security gates into CI/CD pipelines with development and DevOps teams, reducing vulnerability reintroduction}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Selected Open-Source Research Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{AeroMind Drone Security Testbed} $|$ \emph{LangGraph, PX4 SITL, FastAPI, Python} $|$ \href{https://github.com/3odat/aeromind-uav-security-testbed}{\underline{Repo}}}{}
+          \resumeItemListStart
+            \resumeItem{Built a multi-agent UAV research platform with a supervisor agent, autonomous scout drones, and persistent memory to evaluate memory poisoning, cross-agent propagation, and retrieval-stage defenses}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Net-GPT Evaluation Toolkit} $|$ \emph{Python, LLM Fine-Tuning, MAVLink, Packet Generation} $|$ \href{https://github.com/3odat/net-gpt-evaluation-toolkit}{\underline{Repo}}}{}
+          \resumeItemListStart
+            \resumeItem{Developed reusable scripts and evaluation workflows for fine-tuning language models, generating counterfeit UAV packets, and reproducing the attack methodology from the SEC 2023 paper}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{PX4 Autopilot Session Hijacking Exploit} $|$ \emph{PX4 Autopilot, MAVLink, MAVSDK, Python} $|$ \href{https://github.com/3odat/px4-session-hijacking-exploit}{\underline{Repo}}}{}
+          \resumeItemListStart
+            \resumeItem{Reverse-engineered MAVLink session management to achieve privilege escalation on PX4 Autopilot; built a proof-of-concept exploit that hijacked telemetry streams in under two seconds and supported validated remediation proposals}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{AI/LLM Security}{: Adversarial ML, LLM Fine-Tuning (QLoRA), Prompt Engineering, RAG Poisoning, Memory Poisoning, LangGraph, LangChain, Ollama} \\
+     \textbf{Autonomous Systems}{: ROS2, PX4 Autopilot, Gazebo, MAVSDK, MAVLink, NVIDIA Jetson Nano, YOLOv8} \\
+     \textbf{Offensive Security}{: Penetration Testing, Exploit Development, Firmware Analysis, Reverse Engineering, Red Teaming, OSINT} \\
+     \textbf{Frameworks \& Compliance}{: MITRE ATT\&CK, OWASP Top 10, NIST SP 800-171, NIST AI RMF, PCI DSS, ISO 27001} \\
+     \textbf{Security Tooling}{: Kali Linux, Metasploit, Burp Suite, Wireshark, Nessus, Nmap, SQLMap, SIEM, IDS/IPS} \\
+     \textbf{Programming \& Infrastructure}{: Python, Bash, C/C++, SQL, FastAPI, Docker, AWS, Active Directory}
+    }}
+ \end{itemize}
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
+  \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+      \begin{itemize}
+          \item \textbf{Certified Ethical Hacker (CEH)} -- EC-Council, 2023
+          \item \textbf{eLearnSecurity Junior Penetration Tester (eJPT)} -- INE, 2022
+          \item \textbf{Fortinet Network Security Expert NSE 1 \& NSE 2} -- Fortinet, 2021
+      \end{itemize}
+    }}
+  \end{itemize}
+
+%-------------------------------------------
+\end{document}
